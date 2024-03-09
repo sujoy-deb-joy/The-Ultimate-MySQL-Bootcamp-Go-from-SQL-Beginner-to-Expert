@@ -9,3 +9,9 @@ select released_year from books;
 select count(released_year) from books;
 select count(distinct released_year) from books;
 select count(distinct author_lname) from books;
+
+select count(*) from books where title like '%the%'; -- count the titles which has the
+
+
+
+
