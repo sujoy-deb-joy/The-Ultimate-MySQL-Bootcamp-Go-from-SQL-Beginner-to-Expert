@@ -43,4 +43,7 @@ select date_format(birthdate, '%a %b %e') from people;
 
 select date_format(birthdate, '%a %b %D %y') from people;
 
-select date_format(birthdt, '%H %i %a %b %D %y') from people -- hour minute month date year
+select birthdt,  date_format(birthdt, 'born on:  %H %i %r %a %b %D %y') from people -- hour minute month date year
+
+
+

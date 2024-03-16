@@ -12,7 +12,9 @@ select birthdate, year(birthdate + interval 22 year) from people;
 select current_time();
 select curdate();
 select dayofweek(now());
+select dayofweek(curdate());
 select  dayname(now());
+SELECT DATE_FORMAT(NOW(), '%w');
 SELECT DATE_FORMAT(curdate(),'%d/%m/%Y');
 select date_format(current_time(), '%b %D at %H:%i');
 
